@@ -9,8 +9,8 @@ from utilities.logger import Logger
 class Login_page(Base):
 
     base_url = 'https://www.artlebedev.ru/'
-    email = 'mewessound@gmail.com'
-    password = 'IBo0PNJGL'
+    email = 'test@gmail.com'
+    password = 'null'
 
     def __init__(self, driver):
         super().__init__(driver)
